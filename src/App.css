@@ -1,0 +1,163 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/roboto-v29-latin-regular.eot');
+  src: local(''),
+    url('../src/assets/fonts/roboto-v29-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../src/assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'),
+    url('../src/assets/fonts/roboto-v29-latin-regular.woff') format('woff'),
+    url('../src/assets/fonts/roboto-v29-latin-regular.ttf') format('truetype');
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../src/assets/fonts/roboto-v29-latin-500.eot');
+  src: local(''),
+    url('../src/assets/fonts/roboto-v29-latin-500.eot?#iefix') format('embedded-opentype'),
+    url('../src/assets/fonts/roboto-v29-latin-500.woff2') format('woff2'),
+    url('../src/assets/fonts/roboto-v29-latin-500.woff') format('woff'),
+    url('../src/assets/fonts/roboto-v29-latin-500.ttf') format('truetype');
+}
+
+/* oswald-300 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../src/assets/fonts/oswald-v48-latin-300.eot');
+  src: local(''),
+    url('../src/assets/fonts/oswald-v48-latin-300.eot?#iefix') format('embedded-opentype'),
+    url('../src/assets/fonts/oswald-v48-latin-300.woff2') format('woff2'),
+    url('../src/assets/fonts/oswald-v48-latin-300.woff') format('woff'),
+    url('../src/assets/fonts/oswald-v48-latin-300.ttf') format('truetype');
+}
+
+/* oswald-regular - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/oswald-v48-latin-regular.eot');
+  src: local(''),
+    url('../src/assets/fonts/oswald-v48-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../src/assets/fonts/oswald-v48-latin-regular.woff2') format('woff2'),
+    url('../src/assets/fonts/oswald-v48-latin-regular.woff') format('woff'),
+    url('../src/assets/fonts/oswald-v48-latin-regular.ttf') format('truetype');
+}
+
+/* oswald-500 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../src/assets/fonts/oswald-v48-latin-500.eot');
+  src: local(''),
+    url('../src/assets/fonts/oswald-v48-latin-500.eot?#iefix') format('embedded-opentype'),
+    url('../src/assets/fonts/oswald-v48-latin-500.woff2') format('woff2'),
+    url('../src/assets/fonts/oswald-v48-latin-500.woff') format('woff'),
+    url('../src/assets/fonts/oswald-v48-latin-500.ttf') format('truetype');
+}
+
+/* merienda-regular - latin */
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/merienda-v14-latin-regular.eot');
+  src: local(''),
+    url('../src/assets/fonts/merienda-v14-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../src/assets/fonts/merienda-v14-latin-regular.woff2') format('woff2'),
+    url('../src/assets/fonts/merienda-v14-latin-regular.woff') format('woff'),
+    url('../src/assets/fonts/merienda-v14-latin-regular.ttf') format('truetype');
+}
+
+.Roboto_500 {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.Oswald_300 {
+  font-family: 'Oswald';
+  font-weight: 300;
+}
+
+.Oswald_400 {
+  font-family: 'Oswald';
+  font-weight: 400;
+}
+
+.Oswald_500 {
+  font-family: 'Oswald';
+  font-weight: 500;
+}
+
+.Merienda {
+  font-family: 'Merienda';
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
+  background-color: #090c0f !important;
+  color: white !important;
+}
+
+.btn.btn-light{
+  padding: 0 32px !important;
+  border: none !important;
+  height: 50px;
+  background-color: #b99272;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: .3s;
+  z-index: 1;
+}
+.btn.btn-light:hover{
+  color: #b99272 !important;
+}
+.btn.btn-light::before{
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: -17px;
+  width: 120%;
+  height: 155%;
+  background-color: #fff;
+  transform: skewy(-10deg) translatey(-80px);
+  transition: .8s;
+  z-index: -1;
+}
+.btn.btn-light:hover::before{
+  transform: translateY(0px);
+}
+.container{
+  max-width: 1206px !important;
+  padding: 0 30px !important;
+  margin: auto !important;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+       padding: 0 16px !important;
+  }
+}
