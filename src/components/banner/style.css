@@ -1,3 +1,7 @@
+ #home-section {
+     position: relative;
+ }
+
  .slider-image {
      height: 780px;
      object-fit: cover;
@@ -82,22 +86,51 @@
  }
 
  /* Swiper Navigation Buttons */
- .swiper-button-prev,
- .swiper-button-next {
-     color: #b99272;
-     background-color: transparent;
-     font-size: 20px;
-     font-weight: bold;
+ .prev-btn,
+ .next-btn {
+     position: absolute;
+     top: 50%;
+     height: 111px;
+     width: 47px;
+     cursor: pointer;
+     z-index: 10;
+     background-image: url('../../assets/images/banner-slider-arrow.png');
+     background-repeat: no-repeat;
+     background-size: contain;
+     opacity: 1;
+     transition: all 0.5s;
  }
 
- .swiper-button-prev:hover,
- .swiper-button-next:hover {
-     color: #fff;
+ .prev-btn:hover,
+ .next-btn:hover {
+     background-image: url('../../assets/images/banner-slider-arrow-active.png');
+ }
+
+ .prev-btn {
+     left: 0;
+     transform: translateY(-50%)
+ }
+
+ .next-btn {
+     right: 0;
+     transform: translateY(-50%) scaleX(-1);
+ }
+
+ @media screen and (max-width: 1259px) {
+     .prev-btn,
+     .next-btn {
+         width: 35px;
+     }
  }
 
  @media screen and (max-width: 991px) {
      .swiper-content h2 {
          font-size: 90px;
+     }
+
+     .prev-btn,
+     .next-btn {
+         display: none;
      }
  }
 
@@ -111,3 +144,9 @@
          margin-bottom: 30px;
      }
  }
+
+ @media screen and (max-width: 575px) {
+    .btn.get-delivery-btn {
+      padding: 0 12px !important;
+    }
+  }

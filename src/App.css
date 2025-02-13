@@ -118,7 +118,7 @@ body {
   color: white !important;
 }
 
-.btn.btn-light{
+.btn.btn-light {
   padding: 0 32px !important;
   border: none !important;
   height: 50px;
@@ -132,10 +132,12 @@ body {
   transition: .3s;
   z-index: 1;
 }
-.btn.btn-light:hover{
+
+.btn.btn-light:hover {
   color: #b99272 !important;
 }
-.btn.btn-light::before{
+
+.btn.btn-light::before {
   content: '';
   position: absolute;
   left: 0%;
@@ -147,10 +149,18 @@ body {
   transition: .8s;
   z-index: -1;
 }
-.btn.btn-light:hover::before{
+
+.btn.btn-light:hover::before {
   transform: translateY(0px);
 }
-.container{
+
+@media screen and (max-width: 575px) {
+  .btn.btn-light {
+    padding: 0 12px !important;
+  }
+}
+
+.container {
   max-width: 1206px !important;
   padding: 0 30px !important;
   margin: auto !important;
@@ -158,6 +168,6 @@ body {
 
 @media screen and (max-width: 767px) {
   .container {
-       padding: 0 16px !important;
+    padding: 0 16px !important;
   }
 }

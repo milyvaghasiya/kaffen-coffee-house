@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Row, Col, Navbar, Nav, Button } from "react-bootstrap";
-import Logo from '../../assets/images/logo.png'
 import { FaRegClock, FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoLogoYoutube } from "react-icons/io";
 import { MdMenu, MdClose } from "react-icons/md";
+import Logo from '../../assets/images/logo.png'
 import "./style.css"
 
 const menuItems = [
@@ -30,7 +30,7 @@ const Header = () => {
                     </Col>
                     <Col className="d-flex justify-content-center">
                         {[<FaFacebookF className="facebook" />, <FaTwitter />, <FaInstagram />, <IoLogoYoutube />].map((icon, index) =>
-                            <a key={index} href="#" className="text-decoration-none px-2 text-white social_icon">
+                            <a key={index} href="/" className="text-decoration-none px-2 text-white social_icon">
                                 {icon}
                             </a>
                         )}

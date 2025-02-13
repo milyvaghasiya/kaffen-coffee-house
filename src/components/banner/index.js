@@ -32,8 +32,12 @@ const Banner = () => {
                 modules={[Navigation, Autoplay]}
                 spaceBetween={0}
                 slidesPerView={1}
-                navigation
+                navigation={{
+                    nextEl: ".next-btn",
+                    prevEl: ".prev-btn",
+                }}
                 autoplay={{ delay: 3000 }}
+                speed={2000}
                 loop
                 className="banner-slider"
             >
@@ -44,9 +48,9 @@ const Banner = () => {
                             <div className="swiper-content position-absolute top-0 left-0 w-100 h-100">
                                 <Container className="d-flex justify-content-center flex-column h-100">
                                     <span className="text-uppercase">Welcome to the Kaffen</span>
-                                    <h2 dangerouslySetInnerHTML={{__html: slide.title}} />
+                                    <h2 dangerouslySetInnerHTML={{ __html: slide.title }} />
                                     <div className="button-slider d-flex flex-wrap">
-                                        <Button variant="light" style={{fontSize: '14px'}}>
+                                        <Button variant="light" style={{ fontSize: '14px' }}>
                                             Explore More <FaAngleRight />
                                         </Button>
                                         <Button className="text-uppercase get-delivery-btn">
@@ -59,6 +63,8 @@ const Banner = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
+            <div className="prev-btn" />
+            <div className="next-btn" />
         </section>
     );
 };
