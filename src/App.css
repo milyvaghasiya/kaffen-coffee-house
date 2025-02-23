@@ -1,123 +1,121 @@
 /* roboto-regular - latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url('../src/assets/fonts/roboto-v29-latin-regular.eot');
-  src: local(''),
-    url('../src/assets/fonts/roboto-v29-latin-regular.eot?#iefix') format('embedded-opentype'),
-    url('../src/assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'),
-    url('../src/assets/fonts/roboto-v29-latin-regular.woff') format('woff'),
-    url('../src/assets/fonts/roboto-v29-latin-regular.ttf') format('truetype');
+  src: url("../src/assets/fonts/roboto-v29-latin-regular.eot");
+  src: local(""),
+    url("../src/assets/fonts/roboto-v29-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/roboto-v29-latin-regular.woff2") format("woff2"),
+    url("../src/assets/fonts/roboto-v29-latin-regular.woff") format("woff"),
+    url("../src/assets/fonts/roboto-v29-latin-regular.ttf") format("truetype");
 }
 
 /* roboto-500 - latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url('../src/assets/fonts/roboto-v29-latin-500.eot');
-  src: local(''),
-    url('../src/assets/fonts/roboto-v29-latin-500.eot?#iefix') format('embedded-opentype'),
-    url('../src/assets/fonts/roboto-v29-latin-500.woff2') format('woff2'),
-    url('../src/assets/fonts/roboto-v29-latin-500.woff') format('woff'),
-    url('../src/assets/fonts/roboto-v29-latin-500.ttf') format('truetype');
+  src: url("../src/assets/fonts/roboto-v29-latin-500.eot");
+  src: local(""),
+    url("../src/assets/fonts/roboto-v29-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/roboto-v29-latin-500.woff2") format("woff2"),
+    url("../src/assets/fonts/roboto-v29-latin-500.woff") format("woff"),
+    url("../src/assets/fonts/roboto-v29-latin-500.ttf") format("truetype");
 }
 
 /* oswald-300 - latin */
 @font-face {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  src: url('../src/assets/fonts/oswald-v48-latin-300.eot');
-  src: local(''),
-    url('../src/assets/fonts/oswald-v48-latin-300.eot?#iefix') format('embedded-opentype'),
-    url('../src/assets/fonts/oswald-v48-latin-300.woff2') format('woff2'),
-    url('../src/assets/fonts/oswald-v48-latin-300.woff') format('woff'),
-    url('../src/assets/fonts/oswald-v48-latin-300.ttf') format('truetype');
+  src: url("../src/assets/fonts/oswald-v48-latin-300.eot");
+  src: local(""),
+    url("../src/assets/fonts/oswald-v48-latin-300.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/oswald-v48-latin-300.woff2") format("woff2"),
+    url("../src/assets/fonts/oswald-v48-latin-300.woff") format("woff"),
+    url("../src/assets/fonts/oswald-v48-latin-300.ttf") format("truetype");
 }
 
 /* oswald-regular - latin */
 @font-face {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
-  src: url('../src/assets/fonts/oswald-v48-latin-regular.eot');
-  src: local(''),
-    url('../src/assets/fonts/oswald-v48-latin-regular.eot?#iefix') format('embedded-opentype'),
-    url('../src/assets/fonts/oswald-v48-latin-regular.woff2') format('woff2'),
-    url('../src/assets/fonts/oswald-v48-latin-regular.woff') format('woff'),
-    url('../src/assets/fonts/oswald-v48-latin-regular.ttf') format('truetype');
+  src: url("../src/assets/fonts/oswald-v48-latin-regular.eot");
+  src: local(""),
+    url("../src/assets/fonts/oswald-v48-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/oswald-v48-latin-regular.woff2") format("woff2"),
+    url("../src/assets/fonts/oswald-v48-latin-regular.woff") format("woff"),
+    url("../src/assets/fonts/oswald-v48-latin-regular.ttf") format("truetype");
 }
 
 /* oswald-500 - latin */
 @font-face {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 500;
-  src: url('../src/assets/fonts/oswald-v48-latin-500.eot');
-  src: local(''),
-    url('../src/assets/fonts/oswald-v48-latin-500.eot?#iefix') format('embedded-opentype'),
-    url('../src/assets/fonts/oswald-v48-latin-500.woff2') format('woff2'),
-    url('../src/assets/fonts/oswald-v48-latin-500.woff') format('woff'),
-    url('../src/assets/fonts/oswald-v48-latin-500.ttf') format('truetype');
+  src: url("../src/assets/fonts/oswald-v48-latin-500.eot");
+  src: local(""),
+    url("../src/assets/fonts/oswald-v48-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/oswald-v48-latin-500.woff2") format("woff2"),
+    url("../src/assets/fonts/oswald-v48-latin-500.woff") format("woff"),
+    url("../src/assets/fonts/oswald-v48-latin-500.ttf") format("truetype");
 }
 
 /* merienda-regular - latin */
 @font-face {
-  font-family: 'Merienda';
+  font-family: "Merienda";
   font-style: normal;
   font-weight: 400;
-  src: url('../src/assets/fonts/merienda-v14-latin-regular.eot');
-  src: local(''),
-    url('../src/assets/fonts/merienda-v14-latin-regular.eot?#iefix') format('embedded-opentype'),
-    url('../src/assets/fonts/merienda-v14-latin-regular.woff2') format('woff2'),
-    url('../src/assets/fonts/merienda-v14-latin-regular.woff') format('woff'),
-    url('../src/assets/fonts/merienda-v14-latin-regular.ttf') format('truetype');
+  src: url("../src/assets/fonts/merienda-v14-latin-regular.eot");
+  src: local(""),
+    url("../src/assets/fonts/merienda-v14-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/merienda-v14-latin-regular.woff2") format("woff2"),
+    url("../src/assets/fonts/merienda-v14-latin-regular.woff") format("woff"),
+    url("../src/assets/fonts/merienda-v14-latin-regular.ttf") format("truetype");
 }
 
 .Roboto_500 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
 }
-
 .Oswald_300 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 300;
 }
-
 .Oswald_400 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 400;
 }
-
 .Oswald_500 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 500;
 }
-
 .Merienda {
-  font-family: 'Merienda';
+  font-family: "Merienda";
   font-weight: 400;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 body {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400 !important;
   background-color: #090c0f !important;
   color: white !important;
 }
-
 .btn.btn-light {
   padding: 0 32px !important;
   border: none !important;
@@ -129,16 +127,14 @@ body {
   text-transform: uppercase;
   position: relative;
   overflow: hidden;
-  transition: .3s;
+  transition: 0.3s;
   z-index: 1;
 }
-
 .btn.btn-light:hover {
   color: #b99272 !important;
 }
-
 .btn.btn-light::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0%;
   top: -17px;
@@ -146,28 +142,45 @@ body {
   height: 155%;
   background-color: #fff;
   transform: skewy(-10deg) translatey(-80px);
-  transition: .8s;
+  transition: 0.8s;
   z-index: -1;
 }
-
 .btn.btn-light:hover::before {
   transform: translateY(0px);
 }
-
 @media screen and (max-width: 575px) {
   .btn.btn-light {
     padding: 0 12px !important;
   }
 }
-
 .container {
   max-width: 1206px !important;
-  padding: 0 30px !important;
-  margin: auto !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
 }
-
+.py-130 {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.section-subTitle {
+  margin-bottom: 10px;
+  color: #b99272;
+}
+.section-title {
+  font-size: 42px;
+  margin-bottom: 0;
+}
 @media screen and (max-width: 767px) {
   .container {
-    padding: 0 16px !important;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .py-130 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section-title {
+    font-size: 32px;
   }
 }
