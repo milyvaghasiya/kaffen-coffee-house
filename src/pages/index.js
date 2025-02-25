@@ -3,6 +3,7 @@ import Layouts from "../layout/index";
 import Banner from "../components/banner";
 import About from "../components/about";
 import Menu from "../components/menu";
+import WhyChooseUs from "../components/whyChooseUs";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner />
       <About />
       <Menu />
+      <WhyChooseUs />
     </Layouts>
   );
 };
