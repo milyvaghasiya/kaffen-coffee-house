@@ -4,6 +4,7 @@ import Banner from "../components/banner";
 import About from "../components/about";
 import Menu from "../components/menu";
 import WhyChooseUs from "../components/whyChooseUs";
+import Gallery from "../components/gallery";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <Menu />
       <WhyChooseUs />
+      <Gallery />
     </Layouts>
   );
 };
