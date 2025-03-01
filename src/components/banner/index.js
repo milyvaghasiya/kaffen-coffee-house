@@ -42,7 +42,7 @@ const Banner = () => {
         className="banner-slider"
       >
         {slides.map((slide, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="banner-slide">
             <div className="position-relative">
               <img
                 src={slide.image}

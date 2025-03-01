@@ -6,7 +6,7 @@
   object-fit: cover;
   pointer-events: none;
 }
-.swiper-slide > div::before {
+.banner-slide > div::before {
   content: "";
   position: absolute;
   left: 0;
