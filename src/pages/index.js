@@ -6,6 +6,7 @@ import Menu from "../components/menu";
 import WhyChooseUs from "../components/whyChooseUs";
 import Gallery from "../components/gallery";
 import Clients from "../components/clients";
+import Counter from "../components/counter";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <WhyChooseUs />
       <Gallery />
       <Clients />
+      <Counter />
     </Layouts>
   );
 };
