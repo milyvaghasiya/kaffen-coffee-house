@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa6";
 import WhyChoose from "../../assets/images/why-choose-img.jpg";
 import Img1 from "../../assets/images/why-choose-item-1.jpg";
 import Img2 from "../../assets/images/why-choose-item-2.jpg";

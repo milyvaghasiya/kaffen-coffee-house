@@ -148,6 +148,9 @@ body {
 .btn.btn-light:hover::before {
   transform: translateY(0px);
 }
+.btn.btn-light svg{
+  margin-top: -2px;
+}
 @media screen and (max-width: 575px) {
   .btn.btn-light {
     padding: 0 12px !important;
