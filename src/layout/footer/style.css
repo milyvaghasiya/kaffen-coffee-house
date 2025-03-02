@@ -1,0 +1,78 @@
+.footer {
+  padding-top: 70px;
+}
+.footer .row {
+  row-gap: 50px;
+}
+.footer-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.working-hours-col ul {
+  list-style: none;
+}
+.working-hours-col li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.working-hours-col li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 50%;
+}
+.working-hours-col li:last-child::before {
+  display: none;
+}
+.working-hours-col li h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.working-hours-col li p {
+  color: #b99272;
+}
+.working-hours-col li strong {
+  color: #ff8a00;
+}
+.contact-us-col li {
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.contact-us-col svg {
+  color: #b99272;
+  font-size: 40px;
+}
+.contact-us-col h3 {
+  color: #b99272;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+.gallery-col ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gallery-col li {
+  margin: 4px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.gallery-col img {
+  transition: 0.5s;
+  height: 84px;
+}
+.gallery-col li:hover img {
+  transform: scale(1.05);
+}
+.copyright-row {
+  margin-top: 70px;
+  padding: 30px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+}
