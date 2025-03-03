@@ -36,7 +36,7 @@ const Banner = () => {
           nextEl: ".next-btn",
           prevEl: ".prev-btn",
         }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 5000 }}
         speed={2000}
         loop
         className="banner-slider"

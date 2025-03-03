@@ -116,6 +116,9 @@ body {
   background-color: #090c0f !important;
   color: white !important;
 }
+html:has(.loaded)::-webkit-scrollbar {
+  opacity: 0;
+}
 .btn.btn-light {
   padding: 0 32px !important;
   border: none !important;
@@ -148,7 +151,7 @@ body {
 .btn.btn-light:hover::before {
   transform: translateY(0px);
 }
-.btn.btn-light svg{
+.btn.btn-light svg {
   margin-top: -2px;
 }
 @media screen and (max-width: 575px) {

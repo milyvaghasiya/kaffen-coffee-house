@@ -1,8 +1,9 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { LiaEnvelopeOpenTextSolid } from "react-icons/lia";
 import { TbPhone } from "react-icons/tb";
+import { FaAngleUp } from "react-icons/fa6";
 import Logo from "../../assets/images/logo.png";
 import Img1 from "../../assets/images/gallery-3.jpg";
 import Img2 from "../../assets/images/gallery-4.jpg";
@@ -31,6 +32,9 @@ const contactList = [
 ];
 
 const Footer = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <Container className="footer">
       <Row className="align-items-start">
@@ -85,6 +89,9 @@ const Footer = () => {
       <div className="copyright-row text-center">
         Copyright © 2022 Kaffen. All Rights Reserved
       </div>
+      <Button onClick={handleScrollToTop}>
+        <FaAngleUp />
+      </Button>
     </Container>
   );
 };

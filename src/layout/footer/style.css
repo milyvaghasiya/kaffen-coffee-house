@@ -76,3 +76,18 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.6);
 }
+.footer .btn {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  height: 40px !important;
+  width: 40px !important;
+  background-color: #b99272;
+  border: none;
+  transition: 0.3s;
+  z-index: 999;
+}
+.footer .btn:hover {
+  color: #b99272 !important;
+  background-color: white;
+}
