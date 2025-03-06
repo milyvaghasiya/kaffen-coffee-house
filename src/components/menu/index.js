@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import ScrollAnimation from "../scrollAnimation";
 import Menu1 from "../../assets/images/menu-1.jpg";
 import Menu2 from "../../assets/images/menu-2.jpg";
 import Menu3 from "../../assets/images/menu-3.jpg";
@@ -45,33 +46,35 @@ const Menu = () => {
   return (
     <section id="menu-section">
       <Container className="py-130">
-        <p className="text-uppercase section-subTitle text-center">
-          Choose Best Coffee
-        </p>
-        <h3 className="Oswald_400 section-title text-center">
-          Kaffen Popular Coffee Menu
-        </h3>
+        <ScrollAnimation>
+          <p className="text-uppercase section-subTitle text-center">
+            Choose Best Coffee
+          </p>
+          <h3 className="Oswald_400 section-title text-center">
+            Kaffen Popular Coffee Menu
+          </h3>
+        </ScrollAnimation>
         <div className="coffee-menu">
           <Row>
             {coffeeMenus.map((menu, index) => (
-              <Col
-                key={index}
-                xs={12}
-                lg={6}
-                className="single-menu d-flex align-items-center justify-content-center"
-              >
-                <div class="img-hover">
-                  <img
-                    src={menu.img}
-                    alt="menu"
-                    className="h-100 w-100 object-fit-cover"
-                  />
-                </div>
-                <div class="img-desc">
-                  <h5 className="Oswald_400">{menu.name}</h5>
-                  <h4>2/3 espresso, 1/3 steamed milk</h4>
-                  <h3 className="Merienda position-relative">{menu.price}</h3>
-                </div>
+              <Col key={index} xs={12} lg={6}>
+                <ScrollAnimation
+                  delay={0.3 * index}
+                  className="single-menu d-flex align-items-center justify-content-center"
+                >
+                  <div class="img-hover">
+                    <img
+                      src={menu.img}
+                      alt="menu"
+                      className="h-100 w-100 object-fit-cover"
+                    />
+                  </div>
+                  <div class="img-desc">
+                    <h5 className="Oswald_400">{menu.name}</h5>
+                    <h4>2/3 espresso, 1/3 steamed milk</h4>
+                    <h3 className="Merienda position-relative">{menu.price}</h3>
+                  </div>
+                </ScrollAnimation>
               </Col>
             ))}
           </Row>

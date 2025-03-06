@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Container } from "react-bootstrap";
+import ScrollAnimation from "../scrollAnimation";
 import Gallery1 from "../../assets/images/gallery-1.jpg";
 import Gallery2 from "../../assets/images/gallery-2.jpg";
 import Gallery3 from "../../assets/images/gallery-3.jpg";
@@ -21,41 +22,45 @@ const Gallery = () => {
   return (
     <section id="gallery-section" className="py-130">
       <Container>
-        <p className="text-uppercase section-subTitle text-center">
-          Check out some of our hot drinks at the cafe
-        </p>
-        <h3 className="Oswald_400 section-title text-center">Our Gallery</h3>
+        <ScrollAnimation>
+          <p className="text-uppercase section-subTitle text-center">
+            Check out some of our hot drinks at the cafe
+          </p>
+          <h3 className="Oswald_400 section-title text-center">Our Gallery</h3>
+        </ScrollAnimation>
       </Container>
-      <Swiper
-        spaceBetween={30}
-        slidesPerView={1}
-        speed={2000}
-        loop
-        breakpoints={{
-          576: {
-            slidesPerView: 3,
-          },
-          992: {
-            slidesPerView: 5,
-          },
-        }}
-        className="gallery-slider"
-      >
-        {[...gallerySlides, ...gallerySlides].map((slide, index) => (
-          <SwiperSlide key={index} className="gallery-slide">
-            <div className="position-relative w-100 gallery-item">
-              <img
-                src={slide.img}
-                alt="gallery"
-                className="w-100 h-100 position-relative object-fit-cover"
-              />
-              <div className="gallery-desc d-flex align-items-center justify-content-center flex-column">
-                <h4 className="Oswald_400 m-0">{slide.title}</h4>
+      <ScrollAnimation>
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={1}
+          speed={2000}
+          loop
+          breakpoints={{
+            576: {
+              slidesPerView: 3,
+            },
+            992: {
+              slidesPerView: 5,
+            },
+          }}
+          className="gallery-slider"
+        >
+          {[...gallerySlides, ...gallerySlides].map((slide, index) => (
+            <SwiperSlide key={index} className="gallery-slide">
+              <div className="position-relative w-100 gallery-item">
+                <img
+                  src={slide.img}
+                  alt="gallery"
+                  className="w-100 h-100 position-relative object-fit-cover"
+                />
+                <div className="gallery-desc d-flex align-items-center justify-content-center flex-column">
+                  <h4 className="Oswald_400 m-0">{slide.title}</h4>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </ScrollAnimation>
     </section>
   );
 };
